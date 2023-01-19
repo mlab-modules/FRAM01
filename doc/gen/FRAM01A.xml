@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/FRAM01A.kicad_sch</source>
+    <date>Thu Jan 19 00:06:00 2023</date>
+    <tool>Eeschema 6.0.10+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FRAM01A.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="DATALOGGER01A-rescue" part="C-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d87a6934-82b4-4687-9c5b-5b9d616215e6</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afd438f6-5c0c-44b8-bcf5-54f8e071f8c0</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>002965f4-5964-4b23-878f-2af5933bd5ab</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b96e972-b657-4023-b06f-c9f3b694b1cd</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78f8c2e7-580b-4a22-86c8-77fd094b7a22</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>CY15B108QN-40SXI</value>
+      <footprint>KiCad:SOIC127P800X203-8N</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</datasheet>
+      <fields>
+        <field name="Description">F-RAM Excelon LP 40 MHz 8-EIAJ</field>
+        <field name="Height">2.03</field>
+        <field name="Manufacturer_Name">Infineon / Cypress</field>
+        <field name="Manufacturer_Part_Number">CY15B108QN-40SXI</field>
+        <field name="Mouser Part Number">727-CY15B108QN-40SXI</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D</field>
+      </fields>
+      <libsource lib="CY15B108QN-40SXI" part="CY15B108QN-40SXI" description="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
+      <property name="Description" value="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
+      <property name="Height" value="2.03"/>
+      <property name="Mouser Part Number" value="727-CY15B108QN-40SXI"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon / Cypress"/>
+      <property name="Manufacturer_Part_Number" value="CY15B108QN-40SXI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4db57708-f165-4090-875a-0ec5f85f1916</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HEADER_2x03_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>421fd386-5038-4822-adc6-d3bb78d0e87b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_2x04</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x04" description="2x04 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e14eb021-14a8-4312-88f7-4caeccd6d681</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CY15B108QN-40SXI" part="CY15B108QN-40SXI">
+      <description>F-RAM Excelon LP 40 MHz 8-EIAJ</description>
+      <docs>https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">CY15B108QN-40SXI</field>
+        <field name="Footprint">SOIC127P800X203-8N</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</field>
+        <field name="Description">F-RAM Excelon LP 40 MHz 8-EIAJ</field>
+        <field name="Height">2.03</field>
+        <field name="Mouser Part Number">727-CY15B108QN-40SXI</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon / Cypress</field>
+        <field name="Manufacturer_Part_Number">CY15B108QN-40SXI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="passive"/>
+        <pin num="2" name="SO" type="passive"/>
+        <pin num="3" name="~{WP}" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="SI" type="passive"/>
+        <pin num="6" name="SCK" type="passive"/>
+        <pin num="7" name="DNU" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DATALOGGER01A-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x04">
+      <description>2x04 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="IC1" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="J1" pin="5" pintype="input"/>
+      <node ref="J1" pin="6" pintype="input"/>
+      <node ref="J2" pin="6" pintype="input"/>
+      <node ref="J2" pin="8" pintype="input"/>
+    </net>
+    <net code="2" name="MISO">
+      <node ref="IC1" pin="2" pinfunction="SO" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="input"/>
+    </net>
+    <net code="3" name="MOSI">
+      <node ref="IC1" pin="5" pinfunction="SI" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="input"/>
+    </net>
+    <net code="4" name="SCK">
+      <node ref="IC1" pin="6" pinfunction="SCK" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="input"/>
+    </net>
+    <net code="5" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="J1" pin="4" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
+    </net>
+    <net code="6" name="unconnected-(IC1-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="DNU" pintype="passive+no_connect"/>
+    </net>
+    <net code="7" name="~{CS}">
+      <node ref="IC1" pin="1" pinfunction="~{CS}" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="input"/>
+    </net>
+    <net code="8" name="~{WP}">
+      <node ref="IC1" pin="3" pinfunction="~{WP}" pintype="passive"/>
+      <node ref="J2" pin="7" pintype="input"/>
+    </net>
+  </nets>
+</export>
