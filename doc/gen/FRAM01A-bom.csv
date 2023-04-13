@@ -1,8 +1,11 @@
-Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name,Manufacturer_Part_Number,USD_ID,UST_ID
-1,,C-device,C1,100nF,SMD-0805,1, ,,,,,,,,5c70984712875079b91f8b4c
-2,F-RAM Excelon LP 40 MHz 8-EIAJ,CY15B108QN-40SXI,IC1,CY15B108QN-40SXI,SOIC127P800X203-8N,1, ,https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf,2.03,727-CY15B108QN-40SXI,https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D,Infineon / Cypress,CY15B108QN-40SXI,,
-3,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J1,HEADER_2x03_PARALLEL,Straight_2x03,1, ,,,,,,,,
-4,2x04 2.54 mm pitch header,HEADER_2x04,J2,HEADER_2x04,Straight_2x04,1, ,,,,,,,,
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,UST_ID,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name,Manufacturer_Part_Number
+1,,C_Small-Device-ISM02A-rescue,C2,100nF,C_0805_2012Metric,1, ,,C0805_100n 5c70984812875079b91f8bf2,,,,,
+2,,C_Small-Device-ISM02A-rescue,C1,10uF,C_0805_2012Metric,1, ,,5c70984812875079b91f8bbe,,,,,
+3,,D_ZENER-MLAB_D,D1,"BZV55C-5,6V",D_SMA,1, ,,5c70984512875079b91f88b2,,,,,
+4,F-RAM Excelon LP 40 MHz 8-EIAJ,CY15B108QN-40SXI,IC1,CY15B108QN-40SXI,SOIC127P800X203-8N,1, ,https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf,,2.03,727-CY15B108QN-40SXI,https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D,Infineon / Cypress,CY15B108QN-40SXI
+5,2x04 2.54 mm pitch header,HEADER_2x04,J2,HEADER_2x04,Straight_2x04,1, ,,,,,,,
+6,,HOLE,M3 M4,HOLE,MountingHole_3mm,2, ,,,,,,,
+7,,HOLE,M1 M2,HOLE M3,MountingHole_3mm,2, ,,,,,,,
 
 
 
@@ -12,11 +15,11 @@ Project info:
 Schematic:,FRAM01A
 Variant:,default
 Revision:,
-Date:,2023-01-19_00-05-58
-KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Date:,2023-04-13_12-00-18
+KiCad Version:,6.0.11+dfsg-1~bpo11+1
 Statistics:
-Component Groups:,4
-Component Count:,4
-Fitted Components:,4
+Component Groups:,7
+Component Count:,9
+Fitted Components:,9
 Number of PCBs:,1
-Total Components:,4
+Total Components:,9
