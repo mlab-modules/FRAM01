@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/FRAM01A.kicad_sch</source>
-    <date>Thu Apr 13 10:25:46 2023</date>
-    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <date>Thu Jan 19 00:06:00 2023</date>
+    <tool>Eeschema 6.0.10+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -25,46 +25,54 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
-      </fields>
-      <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ef59e19a-a355-40db-84c6-ff65a722a099</tstamps>
-    </comp>
-    <comp ref="C2">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Mlab_R:SMD-0805</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="UST_id">C0805_100n</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
-      <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value="C0805_100n"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <libsource lib="DATALOGGER01A-rescue" part="C-device" description=""/>
+      <property name="USD_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>dd4a23c1-61c1-44ee-91ed-a8b891f143ca</tstamps>
+      <tstamps>d87a6934-82b4-4687-9c5b-5b9d616215e6</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>BZV55C-5,6V</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f88b2</field>
-      </fields>
-      <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f88b2"/>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4458ce8d-b152-4e8d-9d30-866d46225484</tstamps>
+      <tstamps>afd438f6-5c0c-44b8-bcf5-54f8e071f8c0</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>002965f4-5964-4b23-878f-2af5933bd5ab</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b96e972-b657-4023-b06f-c9f3b694b1cd</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78f8c2e7-580b-4a22-86c8-77fd094b7a22</tstamps>
     </comp>
     <comp ref="IC1">
       <value>CY15B108QN-40SXI</value>
@@ -91,13 +99,13 @@
       <tstamps>4db57708-f165-4090-875a-0ec5f85f1916</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Umin ... Umax</value>
+      <value>HEADER_2x03_PARALLEL</value>
       <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
-      <libsource lib="header" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5ef6b1ae-b5ee-4445-9bae-a4ed2e980ea9</tstamps>
+      <tstamps>421fd386-5038-4822-adc6-d3bb78d0e87b</tstamps>
     </comp>
     <comp ref="J2">
       <value>HEADER_2x04</value>
@@ -108,51 +116,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e14eb021-14a8-4312-88f7-4caeccd6d681</tstamps>
     </comp>
-    <comp ref="M1">
-      <value>HOLE M3</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5465d41a-a5d3-4ff7-9257-166dbdc1f01c</tstamps>
-    </comp>
-    <comp ref="M2">
-      <value>HOLE M3</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bcdf02e2-1ecf-428b-99c8-aa0f4044cff5</tstamps>
-    </comp>
-    <comp ref="M3">
-      <value>HOLE</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a78d7d26-5b94-4256-9d23-ec82ca4eb98b</tstamps>
-    </comp>
-    <comp ref="M4">
-      <value>HOLE</value>
-      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
-      <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a95b5040-2faf-4f74-8540-f42397965bd8</tstamps>
-    </comp>
   </components>
   <libparts>
     <libpart lib="CY15B108QN-40SXI" part="CY15B108QN-40SXI">
       <description>F-RAM Excelon LP 40 MHz 8-EIAJ</description>
       <docs>https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</docs>
       <fields>
-        <field name="Reference">IC1</field>
+        <field name="Reference">IC</field>
         <field name="Value">CY15B108QN-40SXI</field>
-        <field name="Footprint">KiCad:SOIC127P800X203-8N</field>
+        <field name="Footprint">SOIC127P800X203-8N</field>
         <field name="Datasheet">https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf</field>
         <field name="Description">F-RAM Excelon LP 40 MHz 8-EIAJ</field>
         <field name="Height">2.03</field>
@@ -162,42 +134,42 @@
         <field name="Manufacturer_Part_Number">CY15B108QN-40SXI</field>
       </fields>
       <pins>
-        <pin num="1" name="~{CS}" type="input"/>
-        <pin num="2" name="SO" type="output"/>
-        <pin num="3" name="~{WP}" type="input"/>
+        <pin num="1" name="~{CS}" type="passive"/>
+        <pin num="2" name="SO" type="passive"/>
+        <pin num="3" name="~{WP}" type="passive"/>
         <pin num="4" name="VSS" type="passive"/>
-        <pin num="5" name="SI" type="input"/>
-        <pin num="6" name="SCK" type="input"/>
+        <pin num="5" name="SI" type="passive"/>
+        <pin num="6" name="SCK" type="passive"/>
         <pin num="7" name="DNU" type="passive"/>
-        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="8" name="VDD" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue">
+    <libpart lib="DATALOGGER01A-rescue" part="C-device">
       <footprints>
         <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_Small-Device-ISM02A-rescue</field>
+        <field name="Value">C-device</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ISM02A-rescue" part="D_ZENER-MLAB_D">
-      <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
-      </footprints>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_ZENER-MLAB_D</field>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x04">
@@ -217,46 +189,34 @@
         <pin num="8" name="" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="header" part="HEADER_2x03_PARALLEL">
-      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">HEADER_2x03_PARALLEL</field>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="input"/>
-        <pin num="2" name="" type="input"/>
-        <pin num="3" name="" type="input"/>
-        <pin num="4" name="" type="input"/>
-        <pin num="5" name="" type="input"/>
-        <pin num="6" name="" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="mlab-default-rescue" part="HOLE">
-      <fields>
-        <field name="Reference">M</field>
-        <field name="Value">HOLE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="input"/>
+        <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
   <nets>
-    <net code="1" name="+3.3V">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="IC1" pin="8" pinfunction="VDD" pintype="power_in"/>
-      <node ref="J1" pin="3" pintype="input"/>
-      <node ref="J1" pin="4" pintype="input"/>
-      <node ref="J2" pin="2" pintype="input"/>
-    </net>
-    <net code="2" name="GND">
+    <net code="1" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="IC1" pin="4" pinfunction="VSS" pintype="passive"/>
       <node ref="J1" pin="1" pintype="input"/>
       <node ref="J1" pin="2" pintype="input"/>
@@ -264,32 +224,35 @@
       <node ref="J1" pin="6" pintype="input"/>
       <node ref="J2" pin="6" pintype="input"/>
       <node ref="J2" pin="8" pintype="input"/>
-      <node ref="M1" pin="1" pintype="input"/>
-      <node ref="M2" pin="1" pintype="input"/>
-      <node ref="M3" pin="1" pintype="input"/>
-      <node ref="M4" pin="1" pintype="input"/>
     </net>
-    <net code="3" name="MISO">
-      <node ref="IC1" pin="2" pinfunction="SO" pintype="output"/>
+    <net code="2" name="MISO">
+      <node ref="IC1" pin="2" pinfunction="SO" pintype="passive"/>
       <node ref="J2" pin="1" pintype="input"/>
     </net>
-    <net code="4" name="MOSI">
-      <node ref="IC1" pin="5" pinfunction="SI" pintype="input"/>
+    <net code="3" name="MOSI">
+      <node ref="IC1" pin="5" pinfunction="SI" pintype="passive"/>
       <node ref="J2" pin="4" pintype="input"/>
     </net>
-    <net code="5" name="SCK">
-      <node ref="IC1" pin="6" pinfunction="SCK" pintype="input"/>
+    <net code="4" name="SCK">
+      <node ref="IC1" pin="6" pinfunction="SCK" pintype="passive"/>
       <node ref="J2" pin="3" pintype="input"/>
+    </net>
+    <net code="5" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="J1" pin="4" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
     </net>
     <net code="6" name="unconnected-(IC1-Pad7)">
       <node ref="IC1" pin="7" pinfunction="DNU" pintype="passive+no_connect"/>
     </net>
     <net code="7" name="~{CS}">
-      <node ref="IC1" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="IC1" pin="1" pinfunction="~{CS}" pintype="passive"/>
       <node ref="J2" pin="5" pintype="input"/>
     </net>
     <net code="8" name="~{WP}">
-      <node ref="IC1" pin="3" pinfunction="~{WP}" pintype="input"/>
+      <node ref="IC1" pin="3" pinfunction="~{WP}" pintype="passive"/>
       <node ref="J2" pin="7" pintype="input"/>
     </net>
   </nets>
