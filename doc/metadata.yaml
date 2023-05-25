@@ -1,0 +1,20 @@
+description: 'Ferromagnetic RAM module. High reliability data storage for harsh environment. '
+github_branch: main
+github_branches:
+- main
+github_repo: FRAM01
+github_url: https://github.com/mlab-modules/FRAM01
+homepage: false
+image: doc/gen/img/FRAM01A-top.png
+images:
+- doc/gen/img/FRAM01A-top.png
+- doc/gen/img/FRAM01A-bottom.png
+- doc/gen/FRAM01A-schematic.svg
+issues: 0
+mark: 50
+mod_scheme: doc/gen/FRAM01A-schematic.pdf
+tags:
+- fram
+- memory
+- high-reliability
+title: FRAM01
