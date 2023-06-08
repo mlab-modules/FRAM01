@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FRAM01A")
+    (date "2023-06-09")
+  )
+
   (lib_symbols
     (symbol "CY15B108QN-40SXI:CY15B108QN-40SXI" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "IC1" (id 0) (at 12.7 7.62 0)
@@ -532,6 +537,7 @@
       )
     )
   )
+
 
   (junction (at 210.82 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 18adfb41-dbbd-4338-bd20-b1a17b4c67bf)
