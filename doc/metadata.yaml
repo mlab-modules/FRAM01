@@ -1,5 +1,5 @@
 description: 'Ferromagnetic RAM module. High reliability data storage for harsh environment. '
-github_branch: main
+github_branch: FRAM01A
 github_branches:
 - main
 github_repo: FRAM01
