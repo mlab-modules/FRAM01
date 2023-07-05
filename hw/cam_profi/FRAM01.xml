@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/github/workspace/hw/sch_pcb/FRAM01A.kicad_sch</source>
-    <date>Thu Apr 13 12:00:51 2023</date>
+    <source>/github/workspace/hw/sch_pcb/FRAM01.kicad_sch</source>
+    <date>Wed Jul  5 12:36:09 2023</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>FRAM01A</title>
         <company/>
         <rev/>
-        <date/>
-        <source>FRAM01A.kicad_sch</source>
+        <date>2023-06-09</date>
+        <source>FRAM01.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -34,7 +34,7 @@
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ef59e19a-a355-40db-84c6-ff65a722a099</tstamps>
     </comp>
@@ -49,7 +49,7 @@
       <property name="UST_id" value="C0805_100n"/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dd4a23c1-61c1-44ee-91ed-a8b891f143ca</tstamps>
     </comp>
@@ -62,7 +62,7 @@
       <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f88b2"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4458ce8d-b152-4e8d-9d30-866d46225484</tstamps>
     </comp>
@@ -86,7 +86,7 @@
       <property name="Manufacturer_Name" value="Infineon / Cypress"/>
       <property name="Manufacturer_Part_Number" value="CY15B108QN-40SXI"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4db57708-f165-4090-875a-0ec5f85f1916</tstamps>
     </comp>
@@ -95,7 +95,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x04" description="2x04 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e14eb021-14a8-4312-88f7-4caeccd6d681</tstamps>
     </comp>
@@ -104,7 +104,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5465d41a-a5d3-4ff7-9257-166dbdc1f01c</tstamps>
     </comp>
@@ -113,7 +113,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bcdf02e2-1ecf-428b-99c8-aa0f4044cff5</tstamps>
     </comp>
@@ -122,7 +122,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a78d7d26-5b94-4256-9d23-ec82ca4eb98b</tstamps>
     </comp>
@@ -131,7 +131,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="FRAM01A.kicad_sch"/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a95b5040-2faf-4f74-8540-f42397965bd8</tstamps>
     </comp>

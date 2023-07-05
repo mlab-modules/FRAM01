@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "6.0.11+dfsg-1~bpo11+1"
     },
-    "CreationDate": "2023-04-13T12:00:23+00:00"
+    "CreationDate": "2023-07-05T12:33:23+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "FRAM01A",
-      "GUID": "4652414d-3031-4412-9e6b-696361645f70",
+      "Name": "FRAM01",
+      "GUID": "4652414d-3031-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "FRAM01A-Edge_Cuts.gbr",
+      "Path": "FRAM01-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FRAM01A-F_Cu.gbr",
+      "Path": "FRAM01-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FRAM01A-B_Cu.gbr",
+      "Path": "FRAM01-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FRAM01A-F_Mask.gbr",
+      "Path": "FRAM01-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "FRAM01A-B_Mask.gbr",
+      "Path": "FRAM01-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "FRAM01A-F_Silkscreen.gbr",
+      "Path": "FRAM01-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FRAM01A-B_Silkscreen.gbr",
+      "Path": "FRAM01-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FRAM01A-F_Paste.gbr",
+      "Path": "FRAM01-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FRAM01A-B_Paste.gbr",
+      "Path": "FRAM01-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     }
