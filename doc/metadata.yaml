@@ -7,12 +7,17 @@ github_url: https://github.com/mlab-modules/FRAM01
 homepage: false
 image: doc/gen/img/FRAM01A-top.png
 images:
-- doc/gen/img/FRAM01A-top.png
-- doc/gen/img/FRAM01A-bottom.png
-- doc/gen/FRAM01A-schematic.svg
+- doc/gen/img/FRAM01-bottom.png
+- doc/gen/img/FRAM01-top.png
+- doc/gen/FRAM01-schematic.svg
+- doc/gen/img/FRAM01-bottom.svg
+- doc/gen/img/FRAM01-top.svg
+- hw/cam_profi/docs/FRAM01A-assembly_page_02.svg
+- hw/cam_profi/docs/FRAM01A-assembly_page_01.svg
 issues: 0
 mark: 50
-mod_scheme: doc/gen/FRAM01A-schematic.pdf
+mod_ibom: hw/cam_profi/ibom/FRAM01-ibom.html
+mod_scheme: doc/gen/FRAM01-schematic.pdf
 tags:
 - fram
 - memory
