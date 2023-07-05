@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/FRAM01.kicad_sch</source>
-    <date>Wed Jul  5 12:36:09 2023</date>
-    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <date>Wed Jul  5 13:15:32 2023</date>
+    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>FRAM01A</title>
@@ -87,6 +87,7 @@
       <property name="Manufacturer_Part_Number" value="CY15B108QN-40SXI"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="ki_description" value="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4db57708-f165-4090-875a-0ec5f85f1916</tstamps>
     </comp>
@@ -96,6 +97,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x04" description="2x04 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="ki_description" value="2x04 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e14eb021-14a8-4312-88f7-4caeccd6d681</tstamps>
     </comp>
@@ -251,7 +254,7 @@
       <node ref="IC1" pin="6" pinfunction="SCK" pintype="input"/>
       <node ref="J2" pin="3" pintype="input"/>
     </net>
-    <net code="6" name="unconnected-(IC1-Pad7)">
+    <net code="6" name="unconnected-(IC1-DNU-Pad7)">
       <node ref="IC1" pin="7" pinfunction="DNU" pintype="passive+no_connect"/>
     </net>
     <net code="7" name="~{CS}">
