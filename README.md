@@ -4,8 +4,6 @@ The MLAB module with FRAM (Ferroelectric Random Access Memory) [CY15B108QN](http
 
 ![Top view of the MLAB module](/doc/gen/img/FRAM01-top.svg) ![Bottom view of the MLAB module](/doc/gen/img/FRAM01-bottom.svg)
 
-[![](/doc/gen/FRAM01-schematic.svg)](/doc/gen/FRAM01-schematic.pdf)
-
 
 ## Advantages of FRAM memory
 
@@ -45,6 +43,10 @@ Thanks to these unique properties, FRAM is suitable for a range of applications,
 For detailed information on CY15B108QN FRAM memory, please refer to the [datasheet](https://www.infineon.com/dgdl/Infineon-CY15B108QN_CY15V108QN_Excelon(TM)_LP_8-Mbit_(1024K_X_8)_Serial_(SPI)_F-RAM-DataSheet-v11_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7134b6ff4).
 
 This module is perfectly tailored for demanding applications that require high write speed, high reliability and durability, and low power consumption. Take advantage of the benefits of FRAM memory in the MLAB module with CY15B108QN.
+
+## Module schematics
+[![](/doc/gen/FRAM01-schematic.svg)](/doc/gen/FRAM01-schematic.pdf)
+
 
 ## Overview of the MLAB module form factor
 
