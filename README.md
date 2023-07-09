@@ -4,7 +4,7 @@ The MLAB module with FRAM (Ferroelectric Random Access Memory) [CY15B108QN](http
 
 ![Top view of the MLAB module](/doc/gen/img/FRAM01-top.svg) ![Bottom view of the MLAB module](/doc/gen/img/FRAM01-bottom.svg)
 
-[![](/doc/gen/img/FRAM01-schematic.svg)](/doc/gen/img/FRAM01-schematic.pdf)
+[![](/doc/gen/FRAM01-schematic.svg)](/doc/gen/FRAM01-schematic.pdf)
 
 
 ## Advantages of FRAM memory
