@@ -5,4 +5,7 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/FRAM01
-summary: 'Ferromagnetic RAM module. High reliability data storage for harsh environment. '
+summary: The MLAB module with 8 Mbit FRAM (CY15B108QN) provides fast data write, low
+  power consumption, and high radiation resistance. Ideal for industrial automation,
+  energy measurement, automotive and aerospace applications. See more on MLAB's modular
+  solutions.

@@ -1,4 +1,7 @@
-description: 'Ferromagnetic RAM module. High reliability data storage for harsh environment. '
+description: The MLAB module with 8 Mbit FRAM (CY15B108QN) provides fast data write,
+  low power consumption, and high radiation resistance. Ideal for industrial automation,
+  energy measurement, automotive and aerospace applications. See more on MLAB's modular
+  solutions.
 github_branch: FRAM01A
 github_branches:
 - main
@@ -31,4 +34,11 @@ tags:
 - kicad-project
 - mlab-kicad
 - pcb
+- f-ram
+- feram
+- cy15b108qn
+- space
+- space-technology
+- radiation-proof
 title: FRAM01
+updated: '2023-07-09T22:51:44.529514+00:00'
