@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/FRAM01.kicad_sch</source>
-    <date>Fri Jul 21 03:36:37 2023</date>
-    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <date>Wed Sep  6 15:51:44 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>FRAM01A</title>
@@ -54,13 +54,11 @@
       <tstamps>dd4a23c1-61c1-44ee-91ed-a8b891f143ca</tstamps>
     </comp>
     <comp ref="D1">
-      <value>BZV55C-5,6V</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f88b2</field>
-      </fields>
+      <value>BZT52H-C3V6,115</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>BZT52H-C3V6,115</datasheet>
       <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f88b2"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

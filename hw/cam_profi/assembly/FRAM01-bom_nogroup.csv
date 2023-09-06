@@ -1,6 +1,6 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id,height,manufacturer_name,manufacturer_part_number,mouser part number,mouser price/stock
 1,,C_Small-Device-ISM02A-rescue,C2,100nF,C_0805_2012Metric,1,,5c70984812875079b91f8bf2,,,,,
 2,,C_Small-Device-ISM02A-rescue,C1,10uF,C_0805_2012Metric,1,,5c70984812875079b91f8bbe,,,,,
-3,,D_ZENER-MLAB_D,D1,"BZV55C-5,6V",D_SMA,1,,5c70984512875079b91f88b2,,,,,
+3,,D_ZENER-MLAB_D,D1,"BZT52H-C3V6,115",D_SOD-123F,1,"BZT52H-C3V6,115",,,,,,
 4,F-RAM Excelon LP 40 MHz 8-EIAJ,CY15B108QN-40SXI,IC1,CY15B108QN-40SXI,SOIC127P800X203-8N,1,https://www.mouser.in/datasheet/2/196/CYPR_S_A0011123055_1-3004611.pdf,,2.03,Infineon / Cypress,CY15B108QN-40SXI,727-CY15B108QN-40SXI,https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D
 5,2x04 2.54 mm pitch header,HEADER_2x04,J2,HEADER_2x04,Straight_2x04,1,,,,,,,
