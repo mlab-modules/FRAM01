@@ -2,4 +2,6 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","10uF","C_0805_2012Metric",142.2400,-93.2000,180.0000,bottom
 "C2","100nF","C_0805_2012Metric",140.7820,-90.9320,180.0000,bottom
 "D1","BZT52H-C3V6,115","D_SOD-123F",150.5000,-83.6000,90.0000,bottom
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",142.0000,-97.0000,180.0000,bottom
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",140.0000,-80.0000,180.0000,bottom
 "IC1","CY15B108QN-40SXI","SOIC127P800X203-8N",138.9380,-86.8680,0.0000,bottom
