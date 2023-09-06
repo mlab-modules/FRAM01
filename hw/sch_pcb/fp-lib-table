@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "KiCad")(type "KiCad")(uri "C:/Users/somme/Downloads/CY15B108QN-40SXI/CY15B108QN-40SXI/KiCad")(options "")(descr ""))
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "C:/Users/somme/Downloads/LIB_CY15B108QN-40SXI/CY15B108QN-40SXI/KiCad")(options "")(descr ""))
 )
