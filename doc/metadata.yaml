@@ -10,8 +10,8 @@ github_url: https://github.com/mlab-modules/FRAM01
 homepage: false
 image: doc/gen/img/FRAM01A-top.png
 images:
-- doc/gen/img/FRAM01-top.png
 - doc/gen/img/FRAM01-bottom.png
+- doc/gen/img/FRAM01-top.png
 - doc/gen/FRAM01-schematic.svg
 - doc/gen/img/FRAM01-top.svg
 - doc/gen/img/FRAM01-bottom.svg
@@ -41,4 +41,4 @@ tags:
 - space-technology
 - radiation-proof
 title: FRAM01
-updated: '2023-07-21T03:39:44.685115+00:00'
+updated: '2023-09-06T15:49:52.271752+00:00'
