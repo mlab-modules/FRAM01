@@ -1,6 +1,6 @@
 # MLAB module with FRAM memory - CY15B108QN
 
-The MLAB module with FRAM (Ferroelectric Random Access Memory) [CY15B108QN](https://www.infineon.com/dgdl/Infineon-CY15B108QN_CY15V108QN_Excelon(TM)_LP_8-Mbit_(1024K_X_8)_Serial_(SPI)_F-RAM-DataSheet-v11_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7134b6ff4) provides a unique combination of features that outperform traditional forms of non-volatile memories such as Flash or EEPROM.
+The MLAB module with FRAM ([Ferroelectric Random Access Memory](https://en.wikipedia.org/wiki/Ferroelectric_RAM)) [CY15B108QN](https://www.infineon.com/dgdl/Infineon-CY15B108QN_CY15V108QN_Excelon(TM)_LP_8-Mbit_(1024K_X_8)_Serial_(SPI)_F-RAM-DataSheet-v11_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7134b6ff4) provides a unique combination of features that outperform traditional forms of non-volatile memories such as Flash or EEPROM.
 
 ![Top view of the MLAB module](/doc/gen/img/FRAM01-top.svg) ![Bottom view of the MLAB module](/doc/gen/img/FRAM01-bottom.svg)
 
@@ -11,15 +11,15 @@ FRAM, also known as Ferroelectric Random Access Memory, offers a range of key ad
 
 1. **Fast data write**: FRAM allows fast data write with speeds comparable to the read speed. This property is much faster than writing data to Flash or EEPROM memories. 
 
-2. **Low power consumption**: The process of writing to FRAM requires less energy than writing to Flash or EEPROM memories.
+2. **Low power consumption**: The process of writing to FRAM requires less energy than writing to Flash or EEPROM memories due to high speed. 
 
-3. **Very high write/read cycles**: FRAM can undergo approximately 10^15 write and read cycles, which is much more than other forms of non-volatile memories.
+3. **Very high write/read cycles**: FRAM can undergo approximately 10¹⁵ write and read cycles, which is much more than other forms of non-volatile memories.
 
 4. **High radiation resistance**: Due to its unique physical operation principle, FRAM is more resistant to radiation than other types of memories. The ferroelectric material used to store data can hold an electrical charge without the need for power. This means that once a bit is written to a memory cell, it stays there until something physically changes it. This property, known as polarization, allows FRAM to resist ionizing radiation that can cause random changes in the value of the charge in other types of memories.
 
 For a more comprehensive understanding of FRAM, you can refer to the [FRAM Wikipedia page](https://en.wikipedia.org/wiki/Ferroelectric_RAM).
 
-## Suitable places for using FRAM memory
+## Suitable use cases for FRAM memory
 
 Thanks to these unique properties, FRAM is suitable for a range of applications, including:
 
