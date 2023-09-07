@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/FRAM01.kicad_sch</source>
-    <date>Thu Sep  7 09:29:12 2023</date>
+    <date>Thu Sep  7 11:26:15 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -70,6 +70,7 @@
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,6 +82,7 @@
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -111,9 +113,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4db57708-f165-4090-875a-0ec5f85f1916</tstamps>
     </comp>
+    <comp ref="J1">
+      <value>HEADER_2x03_PARALLEL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="ki_description" value="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>555465fd-639c-4267-a2fe-d7d01e33b37a</tstamps>
+    </comp>
     <comp ref="J2">
       <value>HEADER_2x04</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x04" description="2x04 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
@@ -128,6 +141,7 @@
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5465d41a-a5d3-4ff7-9257-166dbdc1f01c</tstamps>
     </comp>
@@ -137,6 +151,7 @@
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bcdf02e2-1ecf-428b-99c8-aa0f4044cff5</tstamps>
     </comp>
@@ -146,6 +161,7 @@
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a78d7d26-5b94-4256-9d23-ec82ca4eb98b</tstamps>
     </comp>
@@ -155,6 +171,7 @@
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a95b5040-2faf-4f74-8540-f42397965bd8</tstamps>
     </comp>
@@ -214,6 +231,21 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x04">
       <description>2x04 2.54 mm pitch header</description>
       <fields>
@@ -264,6 +296,8 @@
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="IC1" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="J1" pin="4" pintype="input"/>
       <node ref="J2" pin="2" pintype="input"/>
     </net>
     <net code="2" name="GND">
@@ -271,6 +305,10 @@
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="IC1" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="J1" pin="5" pintype="input"/>
+      <node ref="J1" pin="6" pintype="input"/>
       <node ref="J2" pin="6" pintype="input"/>
       <node ref="J2" pin="8" pintype="input"/>
       <node ref="M1" pin="1" pintype="input"/>

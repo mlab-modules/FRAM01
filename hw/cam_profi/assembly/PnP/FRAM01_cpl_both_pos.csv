@@ -1,12 +1,13 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"C1","10uF","C_0805_2012Metric",142.2400,-93.2000,180.0000,bottom
-"C2","100nF","C_0805_2012Metric",140.7820,-90.9320,180.0000,bottom
-"D1","BZT52H-C3V6,115","D_SOD-123F",150.5000,-83.6000,90.0000,bottom
-"FID1","Fiducial","Fiducial_1mm_Mask2mm",142.0000,-97.0000,180.0000,bottom
-"FID2","Fiducial","Fiducial_1mm_Mask2mm",140.0000,-80.0000,180.0000,bottom
-"IC1","CY15B108QN-40SXI","SOIC127P800X203-8N",138.9380,-86.8680,0.0000,bottom
-"J2","HEADER_2x04","Straight_2x04",146.6700,-86.3600,0.0000,top
-"M1","HOLE M3","MountingHole_3mm",137.1600,-76.2000,0.0000,top
-"M2","HOLE M3","MountingHole_3mm",137.1600,-96.5200,0.0000,top
-"M3","HOLE","MountingHole_3mm",147.3200,-76.2000,0.0000,top
-"M4","HOLE","MountingHole_3mm",147.3200,-96.5200,0.0000,top
+"C1","10uF","C_0805_2012Metric",5.1000,1.6000,-90.0000,bottom
+"C2","100nF","C_0805_2012Metric",3.9000,4.3000,180.0000,bottom
+"D1","BZT52H-C3V6,115","D_SOD-123F",13.3400,12.9200,90.0000,bottom
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",5.0800,-2.0000,180.0000,bottom
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",5.0800,18.0000,180.0000,bottom
+"IC1","CY15B108QN-40SXI","SOIC127P800X203-8N",0.8970,8.2550,0.0000,bottom
+"J1","HEADER_2x03_PARALLEL","PinHeader_2x03_P2.54mm_Vertical",2.2860,14.8860,-90.0000,top
+"J2","HEADER_2x04","PinHeader_2x04_P2.54mm_Vertical",8.1280,13.9700,0.0000,top
+"M1","HOLE M3","MountingHole_3mm",0.0000,20.3200,0.0000,top
+"M2","HOLE M3","MountingHole_3mm",0.0000,0.0000,0.0000,top
+"M3","HOLE","MountingHole_3mm",10.1600,20.3200,0.0000,top
+"M4","HOLE","MountingHole_3mm",10.1600,0.0000,0.0000,top

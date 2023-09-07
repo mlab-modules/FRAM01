@@ -1,6 +1,7 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"J2","HEADER_2x04","Straight_2x04",146.6700,-86.3600,0.0000,top
-"M1","HOLE M3","MountingHole_3mm",137.1600,-76.2000,0.0000,top
-"M2","HOLE M3","MountingHole_3mm",137.1600,-96.5200,0.0000,top
-"M3","HOLE","MountingHole_3mm",147.3200,-76.2000,0.0000,top
-"M4","HOLE","MountingHole_3mm",147.3200,-96.5200,0.0000,top
+"J1","HEADER_2x03_PARALLEL","PinHeader_2x03_P2.54mm_Vertical",2.2860,14.8860,-90.0000,top
+"J2","HEADER_2x04","PinHeader_2x04_P2.54mm_Vertical",8.1280,13.9700,0.0000,top
+"M1","HOLE M3","MountingHole_3mm",0.0000,20.3200,0.0000,top
+"M2","HOLE M3","MountingHole_3mm",0.0000,0.0000,0.0000,top
+"M3","HOLE","MountingHole_3mm",10.1600,20.3200,0.0000,top
+"M4","HOLE","MountingHole_3mm",10.1600,0.0000,0.0000,top
