@@ -7,6 +7,8 @@
   (title_block
     (title "FRAM01A")
     (date "2023-06-09")
+    (company "MLAB.cz")
+    (comment 1 "FRAM based data storage")
   )
 
   (lib_symbols
