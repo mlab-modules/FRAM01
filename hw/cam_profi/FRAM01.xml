@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/FRAM01.kicad_sch</source>
-    <date>Wed Sep  6 21:36:24 2023</date>
+    <date>Thu Sep  7 09:29:12 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>FRAM01A</title>
-        <company/>
+        <company>MLAB.cz</company>
         <rev/>
         <date>2023-06-09</date>
         <source>FRAM01.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="FRAM based data storage"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
