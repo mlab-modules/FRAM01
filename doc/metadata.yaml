@@ -1,7 +1,5 @@
-description: The MLAB module with 8 Mbit FRAM (CY15B108QN) provides fast data write,
-  low power consumption, and high radiation resistance. Ideal for industrial automation,
-  energy measurement, automotive and aerospace applications. See more on MLAB's modular
-  solutions.
+description: 8 Mbit FRAM (CY15B108QN) fast data write, low power consumption, and
+  high radiation resistance data storage
 github_branch: FRAM01A
 github_branches:
 - main
@@ -41,4 +39,4 @@ tags:
 - space-technology
 - radiation-proof
 title: FRAM01
-updated: '2023-09-07T09:27:34.393636+00:00'
+updated: '2023-09-07T09:30:11.623088+00:00'
