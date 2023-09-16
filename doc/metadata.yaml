@@ -19,7 +19,7 @@ issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/FRAM01-ibom.html
 mod_scheme: doc/gen/FRAM01-schematic.pdf
-status: 0
+status: 2
 tags:
 - fram
 - memory
