@@ -3,6 +3,8 @@ description: 8 Mbit FRAM (CY15B108QN) fast data write, low power consumption, an
 github_branch: FRAM01A
 github_branches:
 - main
+github_description: 8 Mbit FRAM (CY15B108QN) fast data write, low power consumption,
+  and high radiation resistance data storage
 github_repo: FRAM01
 github_url: https://github.com/mlab-modules/FRAM01
 homepage: false
@@ -40,4 +42,4 @@ tags:
 - space-technology
 - radiation-proof
 title: FRAM01
-updated: '2023-09-17T07:06:46.904795+00:00'
+updated: '2023-09-17T11:31:03.370588+00:00'
