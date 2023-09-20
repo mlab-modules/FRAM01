@@ -1614,7 +1614,7 @@
     (property "UST_id" "C0805_100n" (at 248.92 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984812875079b91f8bf2" (at -1.27 59.69 0)
+    (property "UST_ID" "5c70984712875079b91f8b4c" (at -1.27 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d1b4b14-c2de-4c83-a678-cad2188ca27e))
