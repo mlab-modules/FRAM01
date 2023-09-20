@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/FRAM01.kicad_sch</source>
-    <date>Mon Sep 11 01:18:44 2023</date>
+    <date>Wed Sep 20 18:52:33 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -57,8 +57,11 @@
       <value>BZT52H-C3V6,115</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
       <datasheet>BZT52H-C3V6,115</datasheet>
+      <fields>
+        <field name="UST_ID">650b35ab462c6d9e720543d0</field>
+      </fields>
       <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="650b35ab462c6d9e720543d0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,6 +102,7 @@
         <field name="Manufacturer_Part_Number">CY15B108QN-40SXI</field>
         <field name="Mouser Part Number">727-CY15B108QN-40SXI</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D</field>
+        <field name="UST_ID">650b3dae462c6d9e72054477</field>
       </fields>
       <libsource lib="CY15B108QN-40SXI" part="CY15B108QN-40SXI" description="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
       <property name="Description" value="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
@@ -107,6 +111,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Cypress/CY15B108QN-40SXI?qs=P1JMDcb91o4DSS%2FkAQM5uA%3D%3D"/>
       <property name="Manufacturer_Name" value="Infineon / Cypress"/>
       <property name="Manufacturer_Part_Number" value="CY15B108QN-40SXI"/>
+      <property name="UST_ID" value="650b3dae462c6d9e72054477"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="FRAM01.kicad_sch"/>
       <property name="ki_description" value="F-RAM Excelon LP 40 MHz 8-EIAJ"/>
