@@ -541,7 +541,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 99f9325f-ea68-4ac2-b4f8-999f9a8cac07)
     )
-    (fp_text value "10uF" (at 0 -1.68 90) (layer "B.Fab")
+    (fp_text value "10uF" (at 0 -1.68 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b1fe9a98-4b89-4bc7-a739-0458dc63813c)
     )
@@ -659,7 +659,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3a99f959-73e3-42c6-914d-4044fe568ad3)
     )
-    (fp_text value "100nF" (at 0 -1.68) (layer "B.Fab")
+    (fp_text value "100nF" (at 0 -1.68) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4f0676f0-4cdf-4387-93e1-e8c95f7b565f)
     )
